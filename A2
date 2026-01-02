@@ -1,0 +1,19 @@
+class Person{
+    void personal(){
+        int id=10;
+        String name="mani";
+        System.out.println("id="+id);
+        System.out.println("name="+name);
+    }
+    void quali(){
+        String qul="diploma in cse";
+        System.out.println(qul);
+    }
+    
+        public static void main(String[] args){
+           Person ps=new Person();
+           ps.personal();
+           ps.quali();
+        
+    }
+}
