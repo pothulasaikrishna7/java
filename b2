@@ -1,0 +1,15 @@
+class construct{
+    construct(){
+        System.out.println("this is defult constructor");
+
+    }
+    construct(int a){
+        int c=a;
+        System.out.println("this is parameterized constructor"+c);
+    }
+    public static void main(String[] args){
+        construct cc=new construct();
+        construct cc1=new construct(10);
+        
+    }
+}
