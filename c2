@@ -1,0 +1,13 @@
+class Thi {
+    int a;
+
+    void m(int a) {
+        this.a = a;
+        System.out.println(a);
+    }
+
+    public static void main(String[] args) {
+        Thi t = new Thi();
+        t.m(10);
+    }
+}
